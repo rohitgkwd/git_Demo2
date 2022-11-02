@@ -42,7 +42,6 @@ body{
 }
 
 .collection{
-
 	display : flex;
 	justify-content: space-around;
 	flex-wrap: wrap;
@@ -55,7 +54,7 @@ body{
 }
 
 .card{
-	background-color: #f5ebe0;
+
 	margin: 10px 5px;
 	border-radius: 15px;
 	max-width: 320px;
@@ -70,10 +69,16 @@ body{
 	width: 100%;
 }
 
-.title{
+.title-visit{
 	font-size: 1.6em;
 	color: #f4a261;
 }
+
+.title-shopping{
+	font-size: 1.6em;
+	color: #466d4c;
+}
+
 
 .desc{
 	max-height: 200px;
@@ -110,6 +115,14 @@ p{
 	margin: 20px auto;
 }
 
+.visit{
+	background-color: #f5ebe0;
+	
+}
+
+.shopping{
+	background-color: #c4dac7;
+}
 
 
 
