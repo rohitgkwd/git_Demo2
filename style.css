@@ -1,0 +1,121 @@
+
+body{
+	padding: 0px;
+	margin:0px;
+	background-color: #ece0d4;
+	
+}
+
+*{
+	box-sizing: border-box;
+}
+ 
+/* https://c0.wallpaperflare.com/preview/714/294/483/city-pune-sky-india.jpg*/ 
+#header{
+	margin:0;
+	background-image: url("city.jpg");
+	max-height : 50vh;
+	background-size:cover; 
+	background-repeat: no-repeat;
+	text-align: center;
+	padding: 10px	
+}
+
+.heading-lg{
+	font-size: 3em;
+	color:white;
+}
+
+.mark{
+	color: #ffb703;
+}
+
+.heading-md{
+	font-size: 3rem;
+	color: #fb8b24;
+	margin-bottom: 20px;
+
+}
+
+.places{
+	text-align: center;
+}
+
+.collection{
+
+	display : flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	padding: 30px 50px;
+}
+
+.card-img{
+	width: 100%;
+	height: 200px;
+}
+
+.card{
+	background-color: #f5ebe0;
+	margin: 10px 5px;
+	border-radius: 15px;
+	max-width: 320px;
+	position: relative;
+}
+
+.heading-sm{
+	font-size: 1.8em;
+	background-color: #e26d5c;
+	color: white;
+	padding: 8px 0;
+	width: 100%;
+}
+
+.title{
+	font-size: 1.6em;
+	color: #f4a261;
+}
+
+.desc{
+	max-height: 200px;
+	padding: 0px 10px;
+}
+
+.info{
+	display : flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin: 0px 0px;
+
+}
+
+ a{
+	color: black;
+	text-decoration: none;
+	padding: 8px 16px;
+	
+}
+
+a:hover{
+	border-radius: 3px ;
+	border: 1px solid rgb(233, 231, 231);
+
+}
+
+.card:hover{
+	box-shadow: 0px -1px 15px lightgrey;
+}
+
+p{
+	height: 150px;
+	margin: 20px auto;
+}
+
+
+
+
+
+
+
+
+
+
